@@ -1,0 +1,5 @@
+#  指定本项目的部署环境，springboot提供的
+# 在nacos上的dataId组成  applicationName-开发环境变量.配置格式  eg:nacos-config-client-dev.yml
+spring:
+  profiles:
+    active: dev

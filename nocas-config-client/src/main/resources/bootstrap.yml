@@ -1,0 +1,13 @@
+server:
+  port: 9101
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.75.134:8848   # nacos 地址
+      config:
+        server-addr: 192.168.75.134:8848   # nacos 地址
+        file-extension: yml # 配置中心的配置格式，我们获取的数据格式。
+        group: nacos-config   # 给项目分一个组
